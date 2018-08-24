@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -7,6 +14,7 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
+  background-color: #000;
 }
 
 nav {
@@ -18,4 +26,35 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
+}
+
+.content h1 {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content h3 {
+  font-family: Helvetica;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+div .content {
+  width: 100%;
+  padding: 5% 0 5% 5%;
+}
+
+div .arrow {
+  padding: 0 0 0 90%;
+}
+
+.location {
+  background-color: #dadada;
+  width: 420px;
+}
+
+.location:hover {
+  background-color: #aaaaaa;
+  width: 420px;
 }
